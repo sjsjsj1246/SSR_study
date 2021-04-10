@@ -12,4 +12,6 @@ ssr을 직접 구현해봅니다.
   - css는 모든 css코드를 결합해준다
   - 이미지 파일은 파일을 다른 경로에 저장하고 그 파일에 대한 경로를 자바스크립트에서 참조할 수 있게 해준다.
 - server에서 랜더링 할 때는 node_modules에 있는 라이브러리를 포함하여 번들링 할 필요가 없다. 서버에서도 node_modules에서 불러올 수 있기 때문 따라서 webpack-node-externals 라이브러리를 사용한다.
-  - webpack.config.server.js 설정을 해줍니다.
+  - webpack.config.js를 참고해 webpack.config.server.js 를 만들어준다
+  - build.js를 참고해 build.server.js를 만들어 준다.
+  - package.config 수정
