@@ -5,10 +5,10 @@ const Menu = (props) => {
   return (
     <ul>
       <li>
-        <Link to="Red">Red</Link>
+        <Link to="/red">Red</Link>
       </li>
       <li>
-        <Link to="Blue">Blue</Link>
+        <Link to="/blue">Blue</Link>
       </li>
     </ul>
   );

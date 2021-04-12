@@ -1,8 +1,15 @@
 # ssr study
 
-# about
+## about
 
 ssr을 직접 구현해봅니다.
+
+## Skills
+
+- React
+- Express
+
+## 정리
 
 - router 설정 후 eject (웹팩 설정을 위해)
 - entry 파일 생성 index.server.js
@@ -15,3 +22,16 @@ ssr을 직접 구현해봅니다.
   - webpack.config.js를 참고해 webpack.config.server.js 를 만들어준다
   - build.js를 참고해 build.server.js를 만들어 준다.
   - package.config 수정
+
+## 에러들
+
+- Module not found: Error: Can't resolve './App'
+  - webpack.config 파일에 추가
+  ```js
+  module.exports = {
+    //...
+    resolve: {
+      extensions: [".js", ".jsx"],
+    },
+  };
+  ```
