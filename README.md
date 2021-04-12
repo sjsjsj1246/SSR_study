@@ -8,6 +8,7 @@ ssr을 직접 구현해봅니다.
 
 - React
 - Express
+- Redux
 
 ## 정리
 
@@ -22,6 +23,8 @@ ssr을 직접 구현해봅니다.
   - webpack.config.js를 참고해 webpack.config.server.js 를 만들어준다
   - build.js를 참고해 build.server.js를 만들어 준다.
   - package.config 수정
+- ssr을 할 때는 문자열을 랜더링하는 것이므로 state가 바뀐다고 해서 자동으로 리랜더링 되지 않는다.
+- http://jsonplaceholder.typicode.com/ 에서 API 호출 테스트
 
 ## 에러들
 
