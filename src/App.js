@@ -1,12 +1,13 @@
-import { Route } from "react-router";
-import Menu from "./components/Menu";
-import BluePage from "./pages/BluePage";
-import RedPage from "./pages/RedPage";
-import UsersPage from "./pages/UsersPage";
+import React from 'react';
+import { Route } from 'react-router-dom';
+import Menu from './components/Menu';
+import RedPage from './pages/RedPage';
+import BluePage from './pages/BluePage';
+import UsersPage from './pages/UsersPage';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Menu />
       <hr />
       <Route path="/red" component={RedPage} />
